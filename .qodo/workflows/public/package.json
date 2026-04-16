@@ -1,0 +1,15 @@
+{
+  "name": "zero-trust-chat",
+  "version": "1.0.0",
+  "description": "Zero Trust Real-Time Chat App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "jsonwebtoken": "^9.0.2",
+    "express": "^4.19.2"
+  }
+}
